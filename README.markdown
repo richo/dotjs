@@ -54,6 +54,14 @@ to http://localhost:3131/convore.com.js any time you
 hit a page on convore.com, for example, and executes
 the returned JavaScript.
 
+## Native Filesystem support
+
+If you're using a sufficiently new browser with
+native filesystem support you don't need to run the
+server, you can merely create the localstorage, then
+symlink ~/.js to point to it, for version control and
+such.
+
 ## Requires
 
 - OS X
